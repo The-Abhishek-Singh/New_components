@@ -116,7 +116,7 @@ export default function ServicesScrollSection() {
   return (
     // Total scrollable height = N screens' worth. This is what the browser
     // actually scrolls through; the inner div below stays pinned the whole time.
-    <div ref={containerRef} style={{ height: `${N * 100}vh` }} className="relative bg-[#1a1a1c]">
+    <div ref={containerRef} style={{ height: `${N * 100}vh` }} className="relative bg-black">
       <div className="sticky top-0 flex h-screen flex-col justify-center overflow-hidden px-6 sm:px-10">
         {/* grain texture */}
         <div
