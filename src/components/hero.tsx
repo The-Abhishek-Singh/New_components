@@ -101,7 +101,7 @@ function StudioView() {
 
 export default function Hero() {
 	return (
-		<section className="hero-section" aria-label="Creative studio">
+		<section className="hero-section h-[95vh]" aria-label="Creative studio ">
 			<div className="hero-section__copy">
 				<p className="hero-section__eyebrow">Inside the studio</p>
 				<h1>Ideas take shape here.</h1>
