@@ -108,7 +108,7 @@ export default function SelectedWorkSection() {
           {/* right: stacked cards, each one's flexGrow pulses as scroll passes its slice */}
           <div className="flex h-full flex-col gap-4 p-4">
             {PROJECTS.map((project, i) => (
-              <Card key={project.title} project={project} index={i} total={N} progress={progress} />
+              <Card key={`${project.title}-${i}`} project={project} index={i} total={N} progress={progress} />
             ))}
           </div>
         </div>

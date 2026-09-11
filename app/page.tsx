@@ -4,6 +4,7 @@ import Navbar from '@/src/components/navbar'
 import SelectedWorkSection from '@/src/components/selectedworksection'
 import ServicesScrollSection from '@/src/components/service'
 import TestimonialMarquee from '@/src/components/testimonial'
+import Hero from '@/src/components/hero'
 import React from 'react'
 
 const page = () => {
@@ -12,10 +13,7 @@ const page = () => {
 
     <Navbar />
 
-       <div className=" h-52 w-full">
-      
-    </div>
-  
+     <Hero />
 
     <SelectedWorkSection />
       <div className=" h-52 w-full">
